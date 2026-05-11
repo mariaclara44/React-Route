@@ -1,5 +1,13 @@
-import { BrowserRouter, Router,  Route } from 'react-router-dom';
+import { BrowserRouter, Routes,  Route } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import Home from './pages/Home/Home';
+import Sobre from './pages/Sobre/Sobre';
+import Servicos from './pages/Servicos/Servicos';
+import Contato from './pages/Contato/Contato';
+import Extra from './pages/Extra/Extra';
+import NotFound from './pages/NotFound/NotFound';
+
 
 function App() {
   return (
